@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIELD</title>
+    <link rel="'stylesheet"  href="style.css">
+
+    <style>
+ .image-container{        
+   width:450px;
+   height:600px;
+   margin: 20px;
+   border:4px solid #ccc;
+   overflow: hidden;
+   display: inline-block;
+}
+.image-container img{
+    width: 100%;
+    height:60%;
+    object-fit:cover;
+}
+.btn-container{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50);
+}
+.btn{
+   
+   background-color: goldenrod;
+   margin: 5px;
+   color: white; 
+   padding: 20px 70px;
+   text-decoration: none;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   
+}
+.btn:hover {
+    background-color: darkgoldenrod;
+}
+.image-container p{
+    font-weight:lighter;
+    font-family: lato, sans-serif;
+    
+}
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="Images/surveillancedashboard.png" alt="surveillance dashboard">
+    
+<br></br>
+<center>
+<h3>Surveillance Dashboards</h3>
+<p>View dashboards with surveillance data for diseases of public health concern.</p>
+<br></br>
+<a href="dashboards.php" class="btn"> View dashboards</a>
+</div>
+</center>
+
+
+
+<div class="image-container">
+    <img src="Images/surveillanceresource.png" alt="surveillance resource "></img>
+    
+<br></br>
+<center>
+    <h3>Surveillance Resources</h3>
+<p>Find Surveillance resources here....</p>
+<br></br>
+<a href="resources.php" class="btn"> View Resources</a>
+</div>
+</center>
+
+
+
+<div class="image-container">
+    <img src="Images/uploaddata.png" alt="upload data "></img>
+    
+   <br></br>
+<center>
+<h3>Upload Data</h3>
+<p>Upload data into SHIELD.</p>
+<br></br>
+<a href="Upload.php" class="btn"> View Resources</a>
+</center>
+</div>
+
+</body>
+</html>
